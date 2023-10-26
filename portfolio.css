@@ -1,0 +1,201 @@
+@media (max-width: 768px) {
+    /* Mobile styles here */
+}
+
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Create a container with a max width and some padding */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Add a semi-transparent white background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to the container */
+    border-radius: 10px; /* Round the container's corners */
+}
+
+/* Center-align header text and add margin to the top */
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style the profile image */
+header img {
+    max-width: 200px;
+    border-radius: 50%;
+    border: 5px solid #fff; /* Add a white border to the image */
+}
+
+/* Style the main heading */
+h1 {
+    font-size: 28px; /* Increase the font size */
+    margin-top: 10px;
+    color: #333; /* Darken the text color */
+}
+
+/* Add margin to the intro and description sections */
+.intro, .description {
+    margin-top: 40px;
+}
+
+/* Style subheadings */
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Style paragraph text */
+p {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #555; /* Slightly darken the text color */
+    font-style: italic; /* Change to italic for a stylish touch */
+}
+
+/* Style the background */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FFC0CB; /* A soft pink background color */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Adjust text color for better readability on the background */
+h1, h2, p {
+    color: #333; /* Dark text for better contrast on a light background */
+}
+/* Add styling for project sections */
+.project {
+    background-color: #fff; /* White background for project sections */
+    margin: 20px 0; /* Add margin between project sections */
+    padding: 20px;
+    border: 1px solid #ddd; /* Add a border for separation */
+    border-radius: 5px;
+}
+
+.project h2 {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #333;
+}
+
+.project p {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #555;
+}
+.resume {
+    background-color: #fff;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    font-size: 28px;
+    margin-top: 0;
+    color: #333; /* Dark text color */
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #555; /* Slightly darkened text color */
+    line-height: 1.6;
+    font-style: italic;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+li {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #333; /* Dark text color */
+}
+
+strong {
+    font-weight: bold;
+}
+/* Form styles */
+form {
+    margin-top: 20px;
+}
+
+form label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form textarea {
+    resize: vertical; /* Allow vertical resizing of the textarea */
+}
+
+form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+
+}
+/* Navigation styles */
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display:list-item;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
